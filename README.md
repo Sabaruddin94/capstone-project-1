@@ -7,8 +7,27 @@ This coding is a single-step single-output problem. With an input window width o
 
 The project's objective is to forecast the Malaysia's Covid-19 cases trend.
 The data is provided through an official GitHub page by Ministry of Health (MoH) Malaysia. The link to the GitHub page will be provided in the credit section below.
-The dataset contains anomalies such as 2 different types of NaNs (which imputed by using df.interpolate()), but no duplicate data.
+The dataset contains anomalies such as 2 different types of NaNs which imputed by using Knn imputer to handle the missing value.
 
-The layers used for the deep learning model are consist of only three layers, input layer, LSTM layer and output layer.
 
-![alt text](Img/image.png)
+DISCUSSION:
+
+The deep learning model used only 3 layers; input layer, LSTM layer and output layer. Here the outcome:
+
+![alt text](<Img/output 2.png>)
+
+![alt text](<Img/output 3.png>)
+
+![alt text](Img/output.png)
+
+Mean absolute error(MAE) calculated as 0.11974168568849564 tested using the testing dataset.
+Please refer the model matrix as follow:
+
+![alt text](<Img/Screenshot 2025-03-10 170748.png>)
+
+Credits:
+The source of the dataset is obtained from GitHub page of Ministry of Health (MoH) Malaysia. Check out the latest dataset by clicking the link below: 
+
+- MoH- Malaysia/covid19-public: Official data on the COVID-19 epidemic in Malaysia. Powered by CPRC, CPRC Hospital System, MKAK, and MySejahtera.
+
+![alt text](<https://github.com/MoH-Malaysia/covid19-public>)
