@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/suhaimi/Desktop/Capston%20Project/capstone%20project%201/mlruns/997731555158525428/58be0e7888c643d2b640587be9d44799/artifacts
+end_time: 1741592319623
+entry_point_name: ''
+experiment_id: '997731555158525428'
+lifecycle_stage: active
+run_id: 58be0e7888c643d2b640587be9d44799
+run_name: stately-worm-209
+run_uuid: 58be0e7888c643d2b640587be9d44799
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741592303952
+status: 3
+tags: []
+user_id: suhaimi
